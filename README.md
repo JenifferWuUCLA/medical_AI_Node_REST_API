@@ -1,20 +1,20 @@
 ## Creating ReSTful API Platform using NodeJS 
 
- 使用NodeJS开发的micro service/REST API平台. 
+#### 使用NodeJS开发micro service/REST API平台. 
 
 Open your browser and point to http://localhost:3000
 
-http://localhost:3000/api/patients  POST
-{
+#### http://localhost:3000/api/patients  POST
+##### {
 "name" : "SITUTESTC, Jack",
 "DOB" : "11/02/1997",
 "age" : 20,
 "gender" : "M",
 "zipcode" : "62859"
-}
+##### }
 
-http://localhost:3000/api/patients  GET
-[
+#### http://localhost:3000/api/patients  GET
+##### [
   {
     "_id": "58f86f131ccadb3d00613ff0",
     "name": "DATUTEST, ABBY",
@@ -65,4 +65,4 @@ http://localhost:3000/api/patients  GET
     "zipcode": "62859",
     "__v": 0
   }
-]
+##### ]
