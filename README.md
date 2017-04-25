@@ -11,7 +11,7 @@ Open your browser and point to http://localhost:3000
 ######   "age" : 20,
 ######   "gender" : "M",
 ######   "zipcode" : "62859"
-##### }
+######    }
 
 #### http://localhost:3000/api/patients  GET
 ######   [
