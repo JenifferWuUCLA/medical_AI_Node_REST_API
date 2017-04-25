@@ -41,7 +41,7 @@ Open your browser and point to http://localhost:3000
     "gender": "F",
     "zipcode": "10519",
     "__v": 0
-  },
+######   },
 ######   {
     "_id": "58f9749eb4e8ac2137474fd8",
     "name": "AATUTESTC, Mike",
@@ -49,11 +49,6 @@ Open your browser and point to http://localhost:3000
     "age": 19,
     "gender": "M",
     "zipcode": "24859",
-    "__v": 0
-######   },
-######   {
-    "_id": "58fdb4e84a7a2e52674cf052",
-    "name": "SITUTESTC, Jack",
     "__v": 0
 ######   },
 ######   {
