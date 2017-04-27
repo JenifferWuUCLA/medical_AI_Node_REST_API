@@ -21,6 +21,10 @@ app.use(cors());
 // Routes
 app.use('/api', require('./routes/api'));
 
-// Start server
-app.listen(3000);
-console.log('Listening on port 3000...');
+// Start server (ip: 192.168.10.97/localhost)
+//app.listen(3000);
+//console.log('Listening on port 3000...');
+
+// Start server (ip: 101.37.36.41)
+app.listen(3020);
+console.log('Listening on port 3020...');
