@@ -4,6 +4,11 @@
 
 Open your browser and point to http://localhost:3000
 
+The steps are as follows:
+1. Navigate to the `medical_AI_Node_REST_API` directory from the command line and run `node server`.
+
+2. 
+
 #### http://localhost:3000/api/patients  POST
 ######   {
 ######   "name" : "SITUTESTC, Jack",
@@ -62,7 +67,7 @@ Open your browser and point to http://localhost:3000
 ######   }
 ######   ]
 
-#### http://localhost:3000/api/patients?name='Marry Grant'  GET
+#### http://localhost:3000/api/patients?name=`Marry Grant`  GET
 ######   [
 ######   {
     "_id": "59015a880199cb171eb384fb",
@@ -79,7 +84,7 @@ Open your browser and point to http://localhost:3000
 ######   ]
 
 
-#### http://localhost:3000/api/diagnostics?name='Marry Grant'  GET
+#### http://localhost:3000/api/diagnostics?name=`Marry Grant`  GET
 ######   [
 ######   {
     "_id": "5901633f443e2d194e41d433",
