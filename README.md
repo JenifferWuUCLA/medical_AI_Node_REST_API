@@ -7,7 +7,7 @@ The steps are as follows:
 
 2. 
 
-#### http://localhost:3000/api/patients  POST
+#### http://101.37.36.41:3020/api/patients  POST
 ######   {
     "name" : "SITUTESTC, Jack",
     "DOB" : "11/02/1997",
@@ -19,7 +19,7 @@ The steps are as follows:
     "smokingStatus": "Smoker"
 ######    }
 
-#### http://localhost:3000/api/patients  GET
+#### http://101.37.36.41:3020/api/patients  GET
 ######   [
 ######   {
     "_id": "58f86f131ccadb3d00613ff0",
@@ -180,7 +180,7 @@ The steps are as follows:
 ######   ]
 
 
-#### http://localhost:3000/api/diagnostics?name=MarryGrant  GET
+#### http://101.37.36.41:3020/api/diagnostics?name=MarryGrant  GET
 ######   [
 ######   {
     "_id": "5901633f443e2d194e41d433",
