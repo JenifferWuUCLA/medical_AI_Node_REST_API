@@ -67,7 +67,7 @@ The steps are as follows:
 ######   }
 ######   ]
 
-#### http://localhost:3000/api/patients?name=`Marry Grant`  GET
+#### http://localhost:3000/api/patients?name=MarryGrant  GET
 ######   [
 ######   {
     "_id": "59015a880199cb171eb384fb",
@@ -84,7 +84,7 @@ The steps are as follows:
 ######   ]
 
 
-#### http://localhost:3000/api/diagnostics?name=`Marry Grant`  GET
+#### http://localhost:3000/api/diagnostics?name=MarryGrant  GET
 ######   [
 ######   {
     "_id": "5901633f443e2d194e41d433",
