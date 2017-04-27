@@ -61,3 +61,42 @@ Open your browser and point to http://localhost:3000
     "__v": 0
 ######   }
 ######   ]
+
+#### http://localhost:3000/api/patients?name=Marry Grant  GET
+######   [
+######   {
+    "_id": "59015a880199cb171eb384fb",
+    "name": "Marry Grant",
+    "DOB": "1987-08-16",
+    "age": 27,
+    "gender": "Female",
+    "zipcode": "245006",
+    "phoneNumber": "15648778956",
+    "preferredLanguage": "English",
+    "smokingStatus": "Non-smoker",
+    "__v": 0
+######   }
+######   ]
+
+
+#### http://localhost:3000/api/diagnostics?name=Marry Grant  GET
+######   [
+######   {
+    "_id": "5901633f443e2d194e41d433",
+    "name": "Marry Grant",
+    "diagnosticPeriod": "12/03/2013 - 12/06/2013",
+    "encounterType": "Inpatient",
+    "visitReason": "Fever and chills",
+    "physician": "Alyssa Havemann",
+    "weight": "135lbs",
+    "height": "5ft 7in",
+    "BMI": 23,
+    "temperature": "98.5 F",
+    "bloodPressure": "120/78",
+    "pulse": 80,
+    "respiratoryRate": 12,
+    "__v": 0,
+    "modified": "2017-04-27T03:19:27.202Z",
+    "created": "2017-04-27T03:19:27.202Z"
+######   }
+######   ]
