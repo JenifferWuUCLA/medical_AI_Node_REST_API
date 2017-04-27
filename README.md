@@ -2,8 +2,6 @@
 
 #### 使用NodeJS开发micro service/REST API平台. 
 
-Open your browser and point to http://localhost:3000
-
 The steps are as follows:
 1. Navigate to the `medical_AI_Node_REST_API` directory from the command line and run `node server`.
 
