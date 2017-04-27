@@ -8,7 +8,10 @@ var patientSchema = new mongoose.Schema({
     DOB:  String,
     age:  Number,
     gender:  String,
-    zipcode:  String
+    zipcode:  String,
+    phoneNumber:  String,
+    preferredLanguage:  String,
+    smokingStatus:  String
 });
 
 // Return model
