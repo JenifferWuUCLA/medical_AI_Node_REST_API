@@ -4,6 +4,7 @@ var mongoose = restful.mongoose;
 
 // Schema
 var patientSchema = new mongoose.Schema({
+    MRN: Number,
     name: String,
     DOB:  String,
     age:  Number,
