@@ -4,6 +4,9 @@ var mongoose = restful.mongoose;
 
 // Schema
 var diagnosticSchema = new mongoose.Schema({
+    MRN: {
+        type: Number
+    },
     name: {
         type: String
     },
